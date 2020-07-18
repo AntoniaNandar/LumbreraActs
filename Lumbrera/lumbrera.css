@@ -15,7 +15,7 @@ body {
 
 /*Cabecera*/
 header {
-    background-image: url(/Lumbrera/fondo8.jpg);
+    background-image: url(imagesLum/fondo8.jpg);
     background-size: 100%;
     background-attachment: fixed;
 }
