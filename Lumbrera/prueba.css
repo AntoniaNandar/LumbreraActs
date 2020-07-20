@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*General*/
+ul {
+    list-style: none;
+} 
+body {
+    text-align: center;
+}
+.text {
+    margin: 10px 50px;
+}
+
+/*Cabecera*/
+header {
+    background-image: url(imagesLum/fondo8.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.cabecera {
+    height: 37rem;
+    /*color: #FFC300;*/
+    color: white;
+}
+.cabecera > h1 {
+    display: inline-block;
+    margin-top: 7rem;
+    width: 100%;
+    font-size: 7rem;
+    /*color: white;
+    background-color: rgb(255, 255, 255, 0.2);*/
+}
+
+/*Nav*/
+nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    opacity: 0.9;
+}
+nav::after {
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url(/Lumbrera/borde.png);
+    width: 100%;
+    height: 2px;
+}
+.menu > li {
+    display: inline-block;
+    font-size: 20;
+    margin: 0.7rem 2rem;
+}
+.menu > li > a {
+    /*color: #408CFF;*/
+    color: white;
+    opacity: 0.9;
+}
